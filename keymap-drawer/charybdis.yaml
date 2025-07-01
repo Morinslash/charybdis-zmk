@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis, layout_name: five_column_transform}
 layers:
   Base:
   - Q
@@ -10,32 +11,32 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Z, h: Pointer}
-  - X
-  - C
+  - J
+  - K
+  - L
+  - ''''
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: C, h: LEFT ALT}
   - V
-  - B
+  - {t: B, h: LEFT WIN}
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: Pointer}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: NuFu, h: sticky}
+  - {t: ',', h: RIGHT ALT}
+  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
+  - {t: /, h: RIGHT SHIFT}
+  - {t: '$$mdi:keyboard-tab$$', h: Media}
+  - $$mdi:keyboard-space$$
+  - {t: ESCAPE, h: Navigation}
+  - {t: '$$mdi:backspace$$', h: Numeral/Function}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Symbol, h: sticky}
-  NuFu:
+  Numeral/Function:
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -68,8 +69,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - '0'
   Symbol:
   - '~'
@@ -106,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -139,8 +140,8 @@ layers:
   - END
   - INS
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Media:
@@ -200,7 +201,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
+  - {t: ▽, type: trans}
   - Scroll
   - Sniper
   - {t: ▽, type: trans}
@@ -236,7 +237,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
