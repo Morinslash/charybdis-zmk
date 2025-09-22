@@ -56,6 +56,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
