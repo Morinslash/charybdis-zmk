@@ -289,6 +289,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [16, 17]
+  k: '-'
+- p: [17, 18]
+  k: '='
 - p: [11, 12]
   k: '&mkp LCLK'
   l: [Base]
@@ -307,7 +311,3 @@ combos:
 - p: [26, 27]
   k: '&mkp MCLK'
   l: [Base]
-- p: [16, 17]
-  k: '-'
-- p: [17, 18]
-  k: '='
