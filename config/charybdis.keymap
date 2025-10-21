@@ -67,12 +67,9 @@
             key-positions = <17 18>;
         };
 
-        combo_l_leftclick {
-            bindings = <&mkp LCLK>;
-            key-positions = <11 12>;
-            layers = <BASE>;
-            timeout-ms = <40>;
-            require-prior-idle-ms = <150>;
+        Win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <22 23>;
         };
     };
 
