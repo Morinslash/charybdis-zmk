@@ -293,6 +293,5 @@ combos:
   k: '-'
 - p: [17, 18]
   k: '='
-- p: [11, 12]
-  k: '&mkp LCLK'
-  l: [Base]
+- p: [22, 23]
+  k: LEFT WIN
