@@ -25,7 +25,7 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - {t: C, h: LEFT ALT}
   - V
-  - {t: B, h: LEFT WIN}
+  - B
   - N
   - M
   - {t: ',', h: RIGHT ALT}
@@ -295,10 +295,4 @@ combos:
   k: '='
 - p: [11, 12]
   k: '&mkp LCLK'
-  l: [Base]
-- p: [21, 22]
-  k: '&mkp RCLK'
-  l: [Base]
-- p: [22, 23]
-  k: '&mkp MCLK'
   l: [Base]
